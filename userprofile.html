@@ -1,39 +1,55 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="help.css" />
-  </head>
-  <body>
-    <div class="user-profile-page">
-      <div class="div">
-        <div class="overlap">
-          <div class="text-wrapper">Public Profile</div>
-          <img class="ellipse" src="img/ellipse-2.svg" />
-          <div class="text-wrapper-2">Juan Dela Cruz</div>
-          <div class="text-wrapper-3">EMAIL</div>
-          <div class="text-wrapper-4">LOCATION</div>
-          <div class="text-wrapper-5">PHONE</div>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - WAYS</title>
+    <link rel="stylesheet" href="ustyle.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">E - WAYS</div>
+        <ul>
+            <li>HOME</li>
+            <li>FAQ</li>
+            <li>CART</li>
+            <li>CONTACT</li>
+            <li>HELP</li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Left: Profile -->
+        <div class="card profile">
+            <img src="https://via.placeholder.com/80" alt="Profile">
+            <h3>Juan Dela Cruz</h3>
+            <p><strong>Email:</strong> example@email.com</p>
+            <p><strong>Location:</strong> Manila, PH</p>
+            <p><strong>Phone:</strong> +63 912 345 6789</p>
         </div>
-        <div class="overlap-group">
-          <div class="text-wrapper-6">Sales Report</div>
-          <div class="text-wrapper-7">ORDERS</div>
-          <div class="text-wrapper-8">SOLD</div>
-          <div class="text-wrapper-9">ITEMS</div>
+
+        <!-- Right Side -->
+        <div class="right-side">
+            <div class="top-section">
+                <div class="card">
+                    <h3>Sales Report</h3>
+                    <p>Orders | Sold | Items</p>
+                </div>
+                <div class="card">
+                    <h3>Revenue</h3>
+                </div>
+            </div>
+            <div class="card analytics">
+                <h3>Sales Analytics</h3>
+            </div>
         </div>
-        <div class="div-wrapper"><div class="text-wrapper-10">Revenue</div></div>
-        <div class="overlap-2"><div class="text-wrapper-6">Sales Analytics</div></div>
-        <div class="navbar">
-          <div class="text-wrapper-11">HOME</div>
-          <div class="text-wrapper-12">CART</div>
-          <div class="text-wrapper-13">FAQ</div>
-          <div class="text-wrapper-14">HELP</div>
-          <div class="text-wrapper-15">CONTACT</div>
-          <div class="text-wrapper-16">E - WAYS</div>
-        </div>
-      </div>
     </div>
-  </body>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
