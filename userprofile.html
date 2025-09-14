@@ -4,52 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E - WAYS</title>
+    <title>Profile Page</title>
     <link rel="stylesheet" href="ustyle.css">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">E - WAYS</div>
-        <ul>
-            <li>HOME</li>
-            <li>FAQ</li>
-            <li>CART</li>
-            <li>CONTACT</li>
-            <li>HELP</li>
-        </ul>
-    </nav>
+    <header>
+        <div class="Logo">E-Ways</div>
 
-    <!-- Main Container -->
-    <div class="container">
-        <!-- Left: Profile -->
-        <div class="card profile">
-            <img src="https://via.placeholder.com/80" alt="Profile">
-            <h3>Juan Dela Cruz</h3>
-            <p><strong>Email:</strong> example@email.com</p>
-            <p><strong>Location:</strong> Manila, PH</p>
-            <p><strong>Phone:</strong> +63 912 345 6789</p>
+        <nav>
+            <a href="dashboard.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+            <a href="help.html">Help</a>
+        </nav>
+
+        <div class="actions">
+            <div class="Profile"><a href="userprofile.html">Profile</a></div>
         </div>
+    </header>
 
-        <!-- Right Side -->
-        <div class="right-side">
-            <div class="top-section">
-                <div class="card">
-                    <h3>Sales Report</h3>
-                    <p>Orders | Sold | Items</p>
-                </div>
-                <div class="card">
-                    <h3>Revenue</h3>
-                </div>
+    <main class="profile-container">
+        <section class="profile-header">
+            <img src="https://via.placeholder.com/100" alt="User Avatar" class="avatar">
+            <div class="user-info">
+                <h2>Juan Dela Cruz</h2>
+                <p>🌍 Passionate about reducing e-waste and promoting eco-friendly living.
+                    Joined EcoWaste to inspire others and share recycling tips.</p>
             </div>
-            <div class="card analytics">
-                <h3>Sales Analytics</h3>
-            </div>
-        </div>
-    </div>
+        </section>
 
-    <script src="script.js"></script>
+        <section class="profile-achievements">
+            <h3>Likes</h3>
+            <div class="badges">
+                <div class="badge">🏅 Eco Starter</div>
+                <div class="badge">🌱 Recycler</div>
+                <div class="badge">💡 Innovator</div>
+                <div class="badge">🔥 Eco Leader</div>
+            </div>
+        </section>
+
+    </main>
 </body>
 
 </html>
