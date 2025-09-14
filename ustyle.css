@@ -104,6 +104,22 @@ body.profile {
   margin-right: 20px;
 }
 
+.logout-btn {
+  background: #2e8b57;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #1d3c1d;
+  color: #b6e2b6;
+}
+
 .user-info h2 {
   margin: 0;
   font-size: 26px;
