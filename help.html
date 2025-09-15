@@ -22,6 +22,7 @@
 
         <div class="actions">
             <div class="Profile"><a href="userprofile.html">Profile</a></div>
+            <button class="logout-btn">Logout</button>
         </div>
     </header>
 
@@ -80,7 +81,13 @@
             </div>
         </section>
     </main>
-
+    <script>
+        function logout() {
+            sessionStorage.clear();
+            localStorage.clear();
+            window.location.href = "login.html";
+        }
+    </script>
 </body>
 
 </html>

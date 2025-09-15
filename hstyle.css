@@ -197,3 +197,19 @@ body.help {
     font-weight: bold;
     text-decoration: none;
 }
+
+.logout-btn {
+    background: #2e8b57;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+    background: #1d3c1d;
+    color: #b6e2b6;
+}
